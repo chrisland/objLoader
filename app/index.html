@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>objLoader</title>
+    <link href="style/style.css" rel="stylesheet" >
+  </head>
+  <body>
+    <div id="render">
+      <div class="default">Choose *.obj Model</div>
+    </div>
+    <div id="ui">
+      <div class="config">
+        <div>
+          <label>Model (obj)</label>
+          <input id="file_model" type="file" value="" />
+        </div>
+        <div>
+          <label>Texture (jpg)</label>
+          <input id="file_texture" type="file" value="" />
+        </div>
+        <div>
+          <label>Ambient Light</label>
+          <input id="color_ambient" class="jscolor" value="101030">
+        </div>
+        <div>
+          <label>Directional Light</label>
+          <input id="color_directional" class="jscolor" value="ffeedd">
+        </div>
+      </div>
+      <div class="toolsbar">
+        <button id="start">Load</button>
+        <div id="info"></div>
+      </div>
+
+
+    </div>
+
+    <script src="script/jscolor.min.js"></script>
+    <script src="script/three.js"></script>
+    <script src="script/OBJLoader.js"></script>
+
+    <script src="script/init.js"></script>
+  </body>
+</html>

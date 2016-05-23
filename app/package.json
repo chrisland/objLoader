@@ -1,0 +1,49 @@
+{
+    "version": "0.1.0",
+    "main": "index.html",
+    "app_name": "objLoader",
+    "additional_trust_anchors": [
+        ""
+    ],
+    "webexe_settings": {
+        "windows-x64": true,
+        "nw_version": "0.14.5",
+        "uncompressed_folder": false,
+        "download_dir": "C:/Users/post/AppData/Local/Web2Executable/Web2Executable/files/downloads",
+        "force_download": false,
+        "windows-x32": false,
+        "linux-x32": false,
+        "linux-x64": false,
+        "sdk_build": false,
+        "nw_compression_level": 0,
+        "mac-x32": false,
+        "export_dir": "output",
+        "custom_script": "",
+        "mac-x64": false
+    },
+    "single-instance": true,
+    "name": "objLoader",
+    "webkit": {
+        "page-cache": false,
+        "plugin": false,
+        "java": false
+    },
+    "nodejs": true,
+    "window": {
+        "toolbar": false,
+        "visible": true,
+        "height": 480,
+        "transparent": false,
+        "as_desktop": false,
+        "title": "objLoader",
+        "width": 640,
+        "frame": true,
+        "fullscreen": false,
+        "resizable": true,
+        "kiosk": false,
+        "kiosk_emulation": false,
+        "show": true,
+        "show_in_taskbar": true,
+        "always_on_top": false
+    }
+}
